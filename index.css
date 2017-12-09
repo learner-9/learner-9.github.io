@@ -1,0 +1,26 @@
+h1{
+    background-color: blue;
+    font-family: monospace;
+}
+.radius{
+    border-radius:50%;
+  width: 350px;
+  position:relative;
+  left:10px;
+  border:2px black solid;
+}
+audio{
+    background-color: grey;
+}
+body{
+    background-image:url('images/4117252-best-pictures.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+ 
+}
+.effect{
+    text-shadow: 2px 4px #639300;
+}
+.nice{
+  font-family:Arial, Helvetica, sans-serif;
+}
