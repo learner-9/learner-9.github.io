@@ -1,26 +1,34 @@
-h1{
-    background-color: blue;
-    font-family: monospace;
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+.jumbotron{
+    background-color: #4377ef;
 }
-.radius{
-    border-radius:50%;
-  width: 350px;
-  position:relative;
-  left:10px;
-  border:2px black solid;
+.col-md-12.panel-image{
+    background-color:lightblue;
 }
-audio{
-    background-color: grey;
+.fan {
+    opacity: 0.5;
+    box-shadow: 2px 0px 2px green;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+
+    transition-property: box-shadow, opacity, transform;
+    transition-duration: 7s;
+    transition-timing-function: ease-in-out;
+    
 }
-body{
-    background-image:url('images/4117252-best-pictures.jpg');
-    background-repeat: no-repeat;
-    background-size:cover;
- 
+
+.more{
+    width:100px;
+    -webkit-transition: width 2s;
+    transition: width 2s;
+
 }
-.effect{
-    text-shadow: 2px 4px #639300;
+.more:hover {
+    width: 200px;
 }
-.nice{
-  font-family:Arial, Helvetica, sans-serif;
+#place, .font-pacifico {
+    font-family: 'Pacifico', cursive;
+}
+.font-berkshireswash{
+    font-family: 'Berkshire Swash', cursive;
 }

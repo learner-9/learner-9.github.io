@@ -1,38 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home</title>
-    <link rel="stylesheet" href="index.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Pacifico" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <title>My Website</title>
 </head>
-<body style="background-color:rgb(51, 173, 255);">
-    <div>
-    <h1 class = "effect nice" style="font-family:Lato">Things that i do..</h1>
+<body>
+    <div class="container">
+            <div class="jumbotron">
+        <div class="row">
+            <div class="col-md-3">
+                    <img src="images/luggage.jpg" class="img-responsive img-rounded img-thumbnail">
+            </div>
+            <div class="col-md-3">
+                <img src="images/fan.png"
+                 class="fan img-responsive img-rounded img-thumbnail">
+            </div>
+            <div class="col-md-6">
+            <h1 class="font-pacifico">Hello Everyone!</h1>
+            <p> I love travelling around the world to relax myself and understand the other side of the world. Below are the places that I would like to go.</p>
+            <p>
+                <a href="http://www.earthtrekkers.com/our-around-the-world-itinerary/" 
+                    class="more btn btn-primary btn-lg">
+                  More
+            </a>
+            </p> 
+        </div>
+    </div><!-- first row-->
+ </div><!--Jumbotron-->
+            <div class="row">
+                    <ol class="breadcrumb" navbar-fixed-top>
+                            <li>
+                                <a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a>
+                            </li>
+                            <li>
+                                <a href="#place">Places of interest</a>
+                            </li>
+                            <li>
+                                <a href="#contact">Contact Me</a>
+                             </li>
+                        </ol>
+             </div>
+             <div class="row">
+                 <div class="col-md-12 panel-image">
+                        <h1 id="place">Places of interest</h1>
+                    <div class="col-md-3">
+                        <div class="panel panel-default">
+                             <div class="panel-heading">
+                                    <img class="img-responsive" src="https://cdntct.com/tct/pic/city/shanghai/attractions/Oriental-Pearl-TV-Tower-1.jpg">
+                                </div>
+                                 <div class="panel-body">
+                                       <h3 class="font-berkshireswash">Shanghai</h3>
+                                       <p class="font-berkshireswash">The Oriental Pearl Radio & TV Tower is a TV tower in Shanghai. 
+                                           Its location at the tip of Lujiazui in the Pudong New Area by the side of Huangpu River,
+                                            opposite The Bund, makes it a distinct landmark in the area</p>
+                                    </div>
+                            </div>
+                    </div>
+             <div class="col-md-3">
+                     <div class="panel panel-default">
+                             <div class="panel-heading">
+                                    <img class="img-responsive" src="images/hollywood_sign.jpg">
+                                </div>
+                                <div class="panel-body">
+                                        <h3 class="font-berkshireswash">Los Angeles</h3>
+                                        <p class="font-berkshireswash">The Hollywood Sign is an American cultural icon and landmark located in Los Angeles, California. 
+                                               It is situated on Mount Lee, in the Hollywood Hills area of the Santa Monica Mountains.
+                                                The sign overlooks Hollywood, Los Angeles.</p>
+                                    </div>
+                             </div>
+                     </div>
+             <div class="col-md-3">
+                    <div class="panel panel-default">
+                            <div class="panel-heading">
+                                     <img class="img-responsive" src="images/france-paris-eiffel-tower.jpg">
+                                </div>
+                                <div class="panel-body">
+                                        <h3 class="font-berkshireswash">Paris</h3>
+                                        <p class="font-berkshireswash">The Eiffel Tower, La Tour Eiffel in French, was the main exhibit of the Paris Exposition — or World's Fair — of 1889. 
+                                            It was constructed to commemorate the centennial of the French Revolution 
+                                            and to demonstrate France's industrial prowess to the world.</p>
+                                     </div>
+                             </div>
+                     </div>
+                    <div class="col-md-3">
+                            <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <img class="img-responsive" src="https://i0.wp.com/applicadthai.com/business/system/files/Art-Inspire/02Taj-Mahal.jpg">
+                                 </div>
+                                 <div class="panel-body">
+                                        <h3 class="font-berkshireswash">India</h3>
+                                        <p class="font-berkshireswash"> The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna river in the Indian city of Agra. 
+                                            It was commissioned in 1632 by the Mughal emperor, Shah Jahan (reigned from 1628 to 1658),
+                                             to house the tomb of his favourite wife, Mumtaz Mahal.</p>
+                                        </div>
+                             </div>
+                     </div>
+                </div>
+         </div> <!--3rd row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 id="contact">Contact Me</h1>
+                    </div>
+                </div>
+                <div class="row">
+                        <form action="https://script.google.com/macros/s/AKfycbwX72k-RbNYwnGR_9Ea5Afk4cJ4Zmfk4PqPkzBe7kXJdaOpSgik/exec"
+                         method="post">
+                        <div class="form-group">
+                                <div class="input-group input-group-lg">
+                                        <span class="input-group-addon">
+                                            <i class="fa fa-user-circle fa-fw"></i>
+                                        </span>
+                            <input type="text"  name="name" id="name" class="form-control" placeholder="Please enter your name" required>
+                        </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group input-group-lg">
+                                    <span class="input-group-addon">
+                                            <i class="fa fa-envelope-o fa-fw"></i>
+                                        </span>
+                                        <input type="email" name="email" id="email" class="form-control" 
+                                        placeholder="Please enter your email" required>          
+                                </div>  
+                            </div>
+                            <div class="form-group">
+                                    <div class="input-group input-group-lg">
+                                        <span class="input-group-addon">
+                                            <i class="fa fa-github-square fa-fw"></i>
+                                        </span>
+                                        <input type="text" name="github" id="github" class="form-control" 
+                                        placeholder="Your github repo ending with .git" required>
+                                    </div>  
+                                </div>
+                             <div class="form-group">
+                                     <div class="input-group input-group-lg">
+                                     <label for="comments" class="control-label">Gender:</label>
+                                        <select name="gender" id="gender" class="form-control">
+                                            <option value="Male">Male</option>
+                                            <option value="Female">Female</option>
+                                        </select>
+                                    </div>  
+                                </div>
+                                <div class="form-group">
+                                    <label for="comments" class="control-label">Comments:</label>
+                                    <div>
+                                            <textarea name="comments" id="comments" cols="50" rows="5"></textarea>    
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                                <button class="btn btn-success btn-block" type="submit">Submit</button>
+                                        </div>
+                                        <div class="col-md-6">
+                                                <button class="btn btn-warning btn-block" type="reset">Clear</button>
+                                            </div>
+                                    </div>
+                                </div>
 
-    <ol>
-        <li class= "effect">Work</li>
-        <li class= "effect">Sleep</li>
-        <li class= "effect">Evolve</li>
-    </ol>
-    <hr>
-   <h3>Where do I start?</h3>
-    <img  src="/images/blk79.jpg" width="400px" alt="Blk79">
-    <img class= "radius" src="/images/blk79.jpg" width="400px" alt="Blk79">
-
-    <h3>Go Slow and Relax!</h3>
-    <iframe width="400px" height="300px" src="https://www.youtube.com/embed/lE6RYpe9IT0"> </iframe>
-    <br>
-    <br>
-    <div>
-        <h3>Something to listen:<i> New Millennium String Ensemble</i><h3>
-        <audio controls>
-        <source src="/audio/05_-_Operatic.mp3" type="audio/mpeg">
-        <source src="/audio/05_-_Operatic.ogg" type="audio/ogg">
-        </audio>
-    </div>
-    </div>
+                        </form>
+                    </div>
+                </div>
+    </div><!--container-->
 </body>
+
 </html>
