@@ -1,10 +1,19 @@
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
-.jumbotron{
-    background-color: #4377ef;
+
+.panel-heading img{
+min-height:180px;
 }
-.col-md-12.panel-image{
+.panel-body{
+   height:200px;
+overflow-y:scroll;
+}
+#place{
+    padding-left: 10px;
+}
+.row, .col-md-12.panel-image{
     background-color:lightblue;
 }
+
 .fan {
     opacity: 0.5;
     box-shadow: 2px 0px 2px green;
