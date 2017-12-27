@@ -1,17 +1,47 @@
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
+ul{
+list-style-type: none;
+padding: 0;
+margin:0;
+background-color: black;
+overflow:hidden
+
+}
+li{
+    float:left;        
+}
+li a {
+    display:block;
+    color:white;
+    padding:10px;
+    text-align:center;
+  
+}
+li a:hover{
+    background-color:cyan;
+    text-decoration: none; 
+}
+li a:active {
+    background-color: #4CAF50;
+    color: white;
+}
+
 .panel-heading img{
 min-height:180px;
 }
 .panel-body{
    height:200px;
-overflow-y:scroll;
+   overflow-y:scroll;
 }
 #place{
     padding-left: 10px;
 }
 .row, .col-md-12.panel-image{
     background-color:lightblue;
+}
+.buttons{
+    margin-left: 50px;
 }
 
 .fan {
@@ -25,6 +55,7 @@ overflow-y:scroll;
     transition-timing-function: ease-in-out;
     
 }
+
 
 .more{
     width:100px;
